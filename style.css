@@ -1,0 +1,112 @@
+header{
+    background-color: rgb(230, 182, 24); 
+    height: 500px; 
+    color: rgb(245, 110, 0);
+    font-size: 35px;
+    background-image: url(https://almaty.tv/cache/imagine/1200/news_photo/1692529656_news_b.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-position: top;
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: rgb(243, 179, 40);
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: black 2px 5px 5px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    
+}
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 40px;
+}
+
+.container{
+width: 80%;
+height: 120%;
+background-color: rgb(231, 151, 46);
+
+padding-left: 20px;
+padding-top: 15px;
+padding-right: 20px;
+
+
+}
+
+main{
+    background-color: rgb(212, 189, 111); /*цвет фона*/
+    height: 800px ;  /*высота*/
+    color: rgb(255, 252, 247); /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+    display: flex;
+    justify-content: center;
+    height: 200%;
+     
+
+}
+
+.left{
+   width: 47%;
+   float: left;
+   height: 100%;
+   background-color:rgb(231, 151, 46) ;
+   
+}
+
+.right{
+    width: 50%;
+    float: right;
+    height: 100%;
+    background-color:rgb(226, 140, 26) ;
+    padding-left: 15px;
+}
+.video{
+padding-top:50px;
+}
+
+
+footer{
+    background: linear-gradient(to left, rgb(185, 185, 31), rgb(206, 143, 27)); 
+    height: 100%;
+    display: flex;
+
+}
+
+.f_left{
+width:30%;
+float: left;
+text-align: center;
+padding: 20px;
+}
+
+
+.f_left img{
+padding-top: 20px;
+
+}
+
+.f_right{
+width: 70%;
+float: right;
+
+}
+
+.f_right img{
+     width: 60px;
+     padding-left: 20px;
+}
+
+
+.f_right ul{
+ list-style: none;
+ display: flex;
+ align-items: center;
+
+
+}
